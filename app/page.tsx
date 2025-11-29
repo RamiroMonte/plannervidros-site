@@ -15,22 +15,22 @@ export default function Home() {
     {
       title: "Box para Banheiro",
       description: "Box em vidro temperado com perfis de alumínio. Modelos de correr, abrir e incolor ou fumê.",
-      image: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=80",
+      image: "/box-banheiro.jpg",
     },
     {
       title: "Portas de Vidro",
       description: "Portas de correr, pivotantes e de abrir. Vidro temperado com ferragens de alta qualidade.",
-      image: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&q=80",
+      image: "/portas-vidro.jpg",
     },
     {
       title: "Janelas de Vidro",
       description: "Janelas em vidro temperado e alumínio. Melhor vedação, isolamento térmico e acústico.",
-      image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80",
+      image: "/janelas-vidro.jpg",
     },
     {
       title: "Guarda-corpo",
       description: "Guarda-corpo em vidro para sacadas, escadas e mezaninos. Segurança com design moderno.",
-      image: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=600&q=80",
+      image: "/guarda-corpo.jpg",
     },
     {
       title: "Espelhos Orgânicos",
@@ -40,27 +40,27 @@ export default function Home() {
     {
       title: "Coberturas de Vidro",
       description: "Coberturas e toldos em vidro laminado para garagens, varandas e áreas gourmet.",
-      image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80",
+      image: "/cobertura-vidro.jpg",
     },
     {
       title: "Fechamentos",
       description: "Fechamento de varandas, sacadas e áreas externas. Aproveite melhor seu espaço.",
-      image: "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=600&q=80",
+      image: "/fechamento-vidro.jpg",
     },
     {
       title: "Serralheria em Alumínio",
       description: "Portas, janelas e estruturas em alumínio. Durabilidade e acabamento impecável.",
-      image: "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=600&q=80",
+      image: "/serralheria-aluminio.jpg",
     },
   ];
 
   const galleryItems = [
-    { title: "Box de vidro", image: "https://images.unsplash.com/photo-1620626011761-996317b8d101?w=800&q=80" },
-    { title: "Guarda-corpo de vidro", image: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80" },
-    { title: "Porta pivotante", image: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80" },
+    { title: "Box de vidro", image: "/galeria-box.jpg" },
+    { title: "Guarda-corpo de vidro", image: "/guarda-corpo.jpg" },
+    { title: "Porta pivotante", image: "/galeria-porta.jpg" },
     { title: "Espelho orgânico", image: "/espelho-organico.webp" },
-    { title: "Espelho decorativo", image: "https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=800&q=80" },
-    { title: "Cobertura de vidro", image: "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80" },
+    { title: "Espelho decorativo", image: "/galeria-espelho.jpg" },
+    { title: "Cobertura de vidro", image: "/cobertura-vidro.jpg" },
   ];
 
   const features = [
@@ -130,7 +130,7 @@ export default function Home() {
       <section id="inicio" className="relative min-h-screen flex items-center pt-32 md:pt-40 pb-20">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=1920&q=80"
+            src="/hero-bg.jpg"
             alt="Interior moderno com vidro"
             fill
             className="object-cover"
@@ -206,7 +206,7 @@ export default function Home() {
             <div className="relative">
               <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
+                  src="/cobertura-vidro.jpg"
                   alt="Projeto de vidraçaria"
                   fill
                   className="object-cover"
