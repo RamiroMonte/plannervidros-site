@@ -35,7 +35,7 @@ export default function Home() {
     {
       title: "Espelhos Orgânicos",
       description: "Espelhos orgânicos e sob medida para banheiros, quartos e salões. Formatos exclusivos e modernos.",
-      image: "https://images.unsplash.com/photo-1634643836960-c345b3c3e998?w=600&q=80",
+      image: "/espelho-organico.webp",
     },
     {
       title: "Coberturas de Vidro",
@@ -58,7 +58,7 @@ export default function Home() {
     { title: "Box de vidro", image: "https://images.unsplash.com/photo-1620626011761-996317b8d101?w=800&q=80" },
     { title: "Guarda-corpo de vidro", image: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80" },
     { title: "Porta pivotante", image: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80" },
-    { title: "Espelho orgânico", image: "https://images.unsplash.com/photo-1634643836960-c345b3c3e998?w=800&q=80" },
+    { title: "Espelho orgânico", image: "/espelho-organico.webp" },
     { title: "Espelho decorativo", image: "https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=800&q=80" },
     { title: "Cobertura de vidro", image: "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80" },
   ];
