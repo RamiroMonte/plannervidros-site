@@ -5,6 +5,7 @@ export default function Home() {
   const whatsappMessage = "https://wa.me/5511947266858?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento.";
   const phoneNumber = "(11) 2851-1872";
   const whatsappNumber = "(11) 94726-6858";
+  const whatsappNumber2 = "(11) 93073-4748";
   const email = "plannervidros@gmail.com";
   const instagram = "@plannervidros";
   const instagramLink = "https://instagram.com/plannervidros";
@@ -83,6 +84,9 @@ export default function Home() {
               </a>
               <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-green-600 transition-colors">
                 <span>📱</span> {whatsappNumber}
+              </a>
+              <a href="https://wa.me/5511930734748" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-green-600 transition-colors">
+                <span>📱</span> {whatsappNumber2}
               </a>
               <a href={`mailto:${email}`} className="flex items-center gap-2 hover:text-teal-500 transition-colors">
                 <span>✉️</span> {email}
@@ -361,9 +365,6 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mt-2 mb-4">
               Galeria de Projetos
             </h2>
-            <p className="text-gray-600 text-lg">
-              Conheça alguns dos nossos trabalhos realizados em São Paulo.
-            </p>
           </div>
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
             {galleryItems.map((item, index) => (
@@ -410,7 +411,7 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="font-semibold text-gray-800 group-hover:text-teal-600 transition-colors">WhatsApp</p>
-                    <p className="text-teal-600 font-medium">{whatsappNumber}</p>
+                    <p className="text-teal-600 font-medium">{whatsappNumber} / {whatsappNumber2}</p>
                   </div>
                 </a>
                 <a href={`tel:+551128511872`} className="flex items-center gap-4 p-4 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors group border border-gray-200">
@@ -546,6 +547,7 @@ export default function Home() {
                   <div>
                     <p className="text-sm text-gray-500">WhatsApp</p>
                     <p className="text-white font-medium">{whatsappNumber}</p>
+                    <p className="text-white font-medium">{whatsappNumber2}</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">

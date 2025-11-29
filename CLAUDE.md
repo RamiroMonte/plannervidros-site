@@ -49,3 +49,7 @@ Import from root using `@/*` (e.g., `import { Component } from '@/components/But
 | `app/globals.css` | Global styles and Tailwind directives |
 | `next.config.ts` | Next.js configuration |
 | `tsconfig.json` | TypeScript configuration |
+
+## Workflow Notes
+
+- **Git push:** Não fazer push automaticamente a cada alteração. Só fazer push quando o usuário pedir explicitamente.
