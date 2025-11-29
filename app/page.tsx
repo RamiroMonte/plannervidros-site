@@ -30,12 +30,12 @@ export default function Home() {
     {
       title: "Guarda-corpo",
       description: "Guarda-corpo em vidro para sacadas, escadas e mezaninos. Segurança com design moderno.",
-      image: "https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=600&q=80",
+      image: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=600&q=80",
     },
     {
       title: "Espelhos",
-      description: "Espelhos sob medida para banheiros, quartos, academias e salões. Instalação inclusa.",
-      image: "https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=600&q=80",
+      description: "Espelhos sob medida e orgânicos para banheiros, quartos e salões. Formatos exclusivos.",
+      image: "https://images.unsplash.com/photo-1618220179428-22790b461013?w=600&q=80",
     },
     {
       title: "Coberturas de Vidro",
@@ -56,11 +56,11 @@ export default function Home() {
 
   const galleryItems = [
     { title: "Box de vidro", image: "https://images.unsplash.com/photo-1620626011761-996317b8d101?w=800&q=80" },
-    { title: "Sacada envidraçada", image: "https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=800&q=80" },
+    { title: "Guarda-corpo de vidro", image: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80" },
     { title: "Porta pivotante", image: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80" },
+    { title: "Espelho orgânico", image: "https://images.unsplash.com/photo-1618220179428-22790b461013?w=800&q=80" },
+    { title: "Espelho decorativo", image: "https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=800&q=80" },
     { title: "Cobertura de vidro", image: "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80" },
-    { title: "Espelho decorativo", image: "https://images.unsplash.com/photo-1631889993959-41b4e9c6e3c5?w=800&q=80" },
-    { title: "Fachada comercial", image: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80" },
   ];
 
   const features = [
@@ -145,8 +145,7 @@ export default function Home() {
               Atendimento imediato via WhatsApp
             </div>
             <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight mb-6">
-              Vidraçaria e Serralheria em
-              <span className="text-teal-400"> São Paulo</span>
+              Vidraçaria em Geral e Serralheria em Alumínio
             </h1>
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
               Box, portas, janelas, guarda-corpo, espelhos e muito mais.
